@@ -30,7 +30,7 @@ cap 12, len 9, addr 0xc00008c0c0, slice [0 1 2 3 4 5 6 7 8]
 cap 12, len 10, addr 0xc00008c0c0, slice [0 1 2 3 4 5 6 7 8 9]
 ```
 
-This geometric pattern continues when `append_size` is 20. Capacity increase by 3, then 6, then 12:
+This geometric pattern continues when `append_size` is 20. Capacity increases by 3, then 6, then 12:
 ```
 Base size is 3, incrementally appending 20 elements
 cap 3, len 0, addr 0xc0000b6020, slice []
