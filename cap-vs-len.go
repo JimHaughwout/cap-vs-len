@@ -4,7 +4,6 @@ import (
 	"fmt"
 )
 
-
 func print_stats(s []int) {
 	fmt.Printf("cap %v, len %v, addr %p, slice %v\n", cap(s), len(s), s, s)
 }
